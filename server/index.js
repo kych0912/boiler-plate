@@ -23,7 +23,7 @@ mongoose.connect(config.mongoURI,{
     }).then(()=> console.log("MongoDB Connected..."))
     .catch(err=>console.log(err));
 
-    app.get('/api/hello', (req, res) => res.send('Hello World!~~ '))
+app.get('/api/hello', (req, res) => res.send('Hello World!~~ '))
 
 
 
@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 });
 
-app.post('/api/user/register',(req,res) =>{
+app.post('/api/users/register',(req,res) =>{
   //app은 express, user는 mongoose model
   //user은 document
   const user = new User(req.body);

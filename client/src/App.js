@@ -9,15 +9,13 @@ import {
 import LandingPage from './components/views/LandingPage/LandingPage';
 import LoginPage from './components/views/LoginPage/LoginPage';
 import Register from './components/views/RegisterPage/RegisterPage';
+import Auth from './hoc/auth';
 
 
 function App() {
   return (
     <Router>
       <div>
-
-        <hr />
-
         <Routes>
           <Route exact path="/" element = {<LandingPage />} />
           <Route path="/Login" element = {<LoginPage />} />
