@@ -9,16 +9,21 @@
     "antd": "^5.0.5",
     "axios": "^1.2.0",
     "concurrently": "^7.6.0",
+    "core-js": "^3.26.1",
+    "formik": "^2.2.9",
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
+    "react-app-polyfill": "^3.0.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.4.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
