@@ -6,13 +6,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import LandingPage from './views/LandingPage/LandingPage';
-import LoginPage from './views/LoginPage/LoginPage';
-import Register from './views/RegisterPage/RegisterPage';
-import Auth from '../hoc/auth';
+import LandingPage from './components/views/LandingPage/LandingPage';
+import LoginPage from './components/views/LoginPage/LoginPage';
+import Register from './components/views/RegisterPage/RegisterPage';
+import Auth from './hoc/auth';
 import React,{Suspense} from 'react';
-import NavBar from './views/NavBar/NavBar';
-import Footer from "./views/Footer/Footer";
+import NavBar from './components/views/NavBar/NavBar';
+import Footer from "./components/views/Footer/Footer";
 
 function App() {
   return (
@@ -27,7 +27,6 @@ function App() {
         </Routes>
       </div>
     </Router>
-    <Footer/>
     </Suspense>
   );
 }
